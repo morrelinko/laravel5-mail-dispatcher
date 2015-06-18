@@ -1,0 +1,24 @@
+{
+  "name": "morrelinko/laravel5-mail-dispatcher",
+  "authors": [
+    {
+      "name": "Laju Morrison",
+      "email": "morrelinko@gmail.com",
+      "homepage": "http://morrelinko.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Morrelinko\\MailDispatcher\\": "src/"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Morrelinko\\MailDispatcher\\Tests\\": "tests/"
+    }
+  }
+}
