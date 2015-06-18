@@ -3,6 +3,8 @@ Laravel5 Mail Dispatcher
 
 #### 1. Create a Mail Handler
 
+    namespace App\Mailers\Users;
+    
     class SendConfirmation
     {
         protected $user;
