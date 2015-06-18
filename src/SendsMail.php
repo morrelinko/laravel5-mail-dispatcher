@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mailers;
+namespace Morrelinko\MailDispatcher;
 
 use Mail;
 use ReflectionFunctionAbstract;
