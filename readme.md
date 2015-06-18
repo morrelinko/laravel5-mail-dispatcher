@@ -33,6 +33,8 @@ Laravel5 Mail Dispatcher
         }
     }
     
+Note: You can type hint `mail()` with Objects you want resolved from the Container (As is `Mailer` in the example). 
+    
 #### 2. Just add the `SendsMail` trait to any class you want to dispatch a mail like so:
 
     use Morrelinko\MailDispatcher\SendsMail;
