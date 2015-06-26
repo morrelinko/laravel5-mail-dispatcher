@@ -1,6 +1,18 @@
 Laravel5 Mail Dispatcher
 --------------------------------
 
+## Installation
+
+    {
+        "require": {
+            ...
+            
+            "morrelinko/laravel5-mail-dispatcher": "dev-master"
+        }
+    }
+    
+## Usage
+
 #### 1. Create a Mail Handler
 
     namespace App\Mailers\Users;
